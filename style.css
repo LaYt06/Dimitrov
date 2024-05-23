@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(56, 21, 90);
+}
+
+header {
+    display: flex;
+    width: 1400px;
+    background-image: url(./logo_1.jpg);
+    background-size: 1400px;
+    height: 470px;
+    margin: 0 auto;
+    border-radius: 2%;
+    text-align: center;
+}
+
+p {
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    justify-content: start;
+    border-right: 2px solid #00ff9d; 
+    padding: 2px;
+    color: #00ff9d;
+}
+.bd_no {
+    border-right: 0px solid #00ff9d; 
+}
+
+main {
+    display: flex;
+    width: 1400px;
+    height: 1000px;
+    /* border: 1px solid #ffffff; */
+    margin: 0 auto;
+}
+
+.box1 {
+    margin-top: 20px;
+    /* border: 1px solid #00ff9d; */
+    width: 350px;
+}
+
+.box2 {
+    /* border: 1px solid #00ff9d; */
+    width: 700px;
+}
+
+.box3 {
+    /* border: 1px solid #00ff9d; */
+    width: 350px;
+}
+footer {
+    width: 1400px;
+    margin: 0 auto;
+}
+.links {
+    position: relative;
+    top: 400px;
+    left: 450px;
+    display: flex;
+}
+h2 {
+    margin: auto;
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    /* background-color: #ff8119; */
+    background: linear-gradient(#ff8119, #ffb219);
+    width: 300px;
+    border-radius: 10px;
+}
+h6 {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid #4d4750;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.stroke {
+    padding: 10px;
+}
+.section {
+    padding: 20px;
+}
+h3 {
+    color: #ffffff;
+    font-size: 40px;
+}
+.full {
+    width: 600px;
+    height: 200px;
+}
+h4 {
+    margin: auto;
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(#ff8119, #ffb219);
+    width: 270px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    width: 1400px;
+    padding: 20px;
+    border-radius: 27px;
+    text-align: center;
+    margin: auto;
+    bottom: 50px;
+    background-color: #9453b2;
+    color: white;
+}
+
+
+
+.calendar-container {
+    background-color: #3e005e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calendar-header {
+    background-color: #ff7b00;
+    padding: 10px;
+    text-align: center;
+}
+
+.month-year {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    background-color: #a300ff;
+    border: 1px solid #4b0045;
+}
+
+.calendar th {
+    background-color: #c300ff;
+}
+
+.calendar td {
+    color: white;
+}
+
+.calendar td:nth-child(7) {
+    background-color: #a300ff;
+}
